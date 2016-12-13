@@ -41,9 +41,49 @@ article {
   font-weight: bold;
 }
 
+h1 {
+  text-align: center;
+}
 
 
+#about {
+    -ms-transform: rotate(15deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+    transform-origin: 10% 20%;
+  
+  
+}
 
+.myself {
+  margin-top: 150px;
+}
+
+#link-akone  {
+	display: inline-block;
+	padding: 4px;
+	outline: 0;
+	color: #28A0FF;
+	transition-duration: 1s;
+	transition-property: transform;
+	transform: scale(1) rotate(0);
+}
+
+
+#link-akone:hover {
+	background: #28A0FF;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 4px;
+	transform: scale(1.05) rotate(-1deg);
+}
+
+
+.photo_splash {
+  padding-left: 30px;
+}
 
 
 /*  SECTIONS  */
