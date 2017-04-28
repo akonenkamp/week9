@@ -1,11 +1,11 @@
 header {
-  background-color: #28A0FF;
+  background-color: navy;
   padding-top: 30px;
   text-align: left;
 }
 
 footer {
-  background-color: #28A0FF;
+  background-color: navy;
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: left;
@@ -16,7 +16,7 @@ footer {
 nav {
   
   clear: both;
-  background-color: aliceblue;
+  background-color: navajowhite;
   height: 40p;
   text-align: center;
 
@@ -65,7 +65,7 @@ h1 {
 	display: inline-block;
 	padding: 8px;
 	outline: 0;
-	color: #28A0FF;
+	color: navy;
 	transition-duration: 1s;
 	transition-property: transform;
 	transform: scale(1) rotate(0);
@@ -74,7 +74,7 @@ h1 {
 
 
 #link-akone:hover {
-	background: #28A0FF;
+	background: navy;
 	text-decoration: none;
 	color: #fff;
 	border-radius: 8px;
